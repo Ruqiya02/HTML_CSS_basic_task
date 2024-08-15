@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: Montserrat;
+    margin: 0;
+}
+header{
+    height: 1132px;
+    width: 100%;
+    background-color: #252B42;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul, .nav, .nav_item{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    width: 300px;
+    list-style: none;
+    font-size: 14px;
+}
+li:hover{
+    cursor: pointer;
+    color: #56649c;
+}
+.nav{
+    color: white;
+}
+button{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button_1, .row_button_1{
+    background-color: #23A6F0;
+    width: 137px;
+    height: 52px;
+    color: white;
+}
+.nav_item{
+    width: 300px;
+}
+.nav, .nav_item, .container{
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+#one{
+    color: #23A6F0;
+}
+.container{
+    width: 1046px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: 701px;
+    height: 496px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+h1{
+    font-size: 58px;
+    width: 542px;
+    height: 160px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 536px;
+}
+.row_button_2{
+    color: #23A6F0 ;
+    width: 152px;
+    height: 52px;
+    border: 2px solid #23A6F0;
+    background-color: transparent ;
+}
+.box{
+    width: 328px;
+    height: 292px;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.box_container{
+    margin-top: 150px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.line, #last_line{
+    width: 60px;
+    height: 3px;
+}
+.line{
+    background-color: #E74040;
+}
+.box_paragraph, .box_paragraph_blue{
+    width: 222px;
+    font-size: 14px;
+}
+.box_paragraph{
+    color: #737373;
+}
+.icon{
+    width: 70px;
+    height: 76px;
+}
+.box_paragraph, .line, .icon, .box_header, .box_header_last, .box_paragraph_blue, #last_line {
+    margin-left: 35px;
+}
+#blue{
+    background-color: #23A6F0;
+}
+.box_paragraph_blue{
+    color: white;
+}
+.box_header{
+    color: black;
+}
+#last_line{
+    background-color: white;
+}
